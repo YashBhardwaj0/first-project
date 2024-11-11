@@ -1,0 +1,45 @@
+body{
+    background-image: url(wp3416342.webp);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+.container{
+    display:flex;
+    width: auto;
+    margin: 30px;
+    justify-content:space-between;
+    padding: 20px;
+}
+h1{
+    color: purple;
+    text-align: center;
+}
+p{
+    text-align: right;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.section{
+    padding-left:30px;
+}
+.detail{
+    padding-top: 8px;
+}
+ul{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+@media(max-width:768px  ){
+    .container{flex-direction: column;
+
+    }
+}
+#left{
+    text-align: left;
+}
